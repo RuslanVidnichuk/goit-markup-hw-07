@@ -1,0 +1,41 @@
+.work-header {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.work-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+
+.work-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  position: relative;
+}
+
+.signature {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px 0;
+  background: var(--signature-background-color);
+  color: var(--primary-background-color);
+}

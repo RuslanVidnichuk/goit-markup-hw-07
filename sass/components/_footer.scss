@@ -1,0 +1,120 @@
+.link {
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-background-color);
+}
+.footer-studio {
+  color: var(--primary-background-color);
+}
+.footer-list {
+  list-style: none;
+  padding-left: 0px;
+}
+.address .link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.footer-list-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.footer-list .footer-list-item + .footer-list-item {
+  margin-top: 9px;
+}
+
+.footer-container-links {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container {
+  margin-right: 70px;
+}
+
+.footer-social-link {
+  margin-right: 93px;
+}
+
+.social-links-header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+  fill: #fff;
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-accent-color);
+  }
+}
+
+.subscription-form {
+  margin-left: 93px;
+}
+.name {
+  display: block;
+}
+.title-form {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-background-color);
+}
