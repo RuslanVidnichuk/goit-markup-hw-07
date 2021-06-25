@@ -14,7 +14,7 @@
     ),
     url(../images/Img.jpg);
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -23,7 +23,7 @@
   letter-spacing: 0.06em;
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   border: none;
   min-width: 200px;

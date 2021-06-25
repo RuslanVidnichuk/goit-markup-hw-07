@@ -1,4 +1,4 @@
-.subscribe-header {
+.subscribe__header {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--primary-background-color);
@@ -9,11 +9,11 @@
   letter-spacing: 0.03em;
 }
 
-.subscribe-wrapper {
+.subscribe__wrapper {
   display: flex;
 }
 
-.subscribe-input {
+.subscribe__input {
   width: 358px;
   height: 50px;
   padding: 0 0 0 16px;
@@ -32,7 +32,7 @@
   }
 }
 
-.subscribe-button {
+.subscribe__button {
   position: relative;
   width: 200px;
   height: 50px;
@@ -57,7 +57,7 @@
   }
 }
 
-.telegram-icon {
+.subscribe__telegram-icon {
   position: absolute;
   top: 50%;
   right: 28px;

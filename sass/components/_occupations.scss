@@ -15,13 +15,13 @@
   padding-bottom: 94px;
 }
 
-.work-item {
+.work-list__item {
   display: list-item;
   text-align: -webkit-match-parent;
   position: relative;
 }
 
-.signature {
+.work-list__signature {
   position: absolute;
   bottom: 0;
   left: 0;

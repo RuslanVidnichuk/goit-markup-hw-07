@@ -25,10 +25,10 @@
   justify-content: center;
 }
 
-.customer-item:not(:last-child) {
+.customer-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.customer-link {
+.customer-list__link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;

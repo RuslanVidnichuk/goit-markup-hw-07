@@ -1,4 +1,4 @@
-.nav-list {
+.nav__list {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -6,7 +6,7 @@
   list-style: none;
   letter-spacing: 0.02em;
 }
-.nav-link {
+.nav__link {
   text-decoration: none;
   color: inherit;
   transition-duration: var(--transition-duration);
@@ -17,7 +17,7 @@
   }
 }
 
-.nav-link.current {
+.nav__link.current {
   color: var(--accent-color);
   position: relative;
   padding-top: 32px;
@@ -36,7 +36,7 @@
   }
 }
 
-.header-contacts {
+.header-contacts-list {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -48,10 +48,11 @@
   align-items: center;
 }
 
-.header-contacts .header-contacts-item + .header-contacts-item {
-  margin-left: 50px;
+.header-contacts-list .header-contacts-list__item +.header-contacts-list__item {
+  margin-left:50px;
 }
-.contacts-link {
+
+.header-contacts-list__link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -73,7 +74,7 @@
   border-bottom: 1px solid var(--header-line-color);
 }
 
-.nav-list-item {
+.nav__item {
   padding-top: 32px;
   padding-bottom: 32px;
   &:not(:last-child) {
@@ -81,7 +82,7 @@
   }
 }
 
-.icon-mail {
+.header-contacts-list__icon-mail {
   margin-right: 10px;
   fill: currentColor;
 
