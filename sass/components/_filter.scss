@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.filter-item {
+.filter-list__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -30,11 +30,11 @@
   }
 }
 
-.filter-list > .filter-list-item + .filter-list-item {
+.filter-list > .filter-list__item + .filter-list__item {
   margin-left: 8px;
 }
 
-.filter-list-item {
+.filter-list__item {
   display: list-item;
   text-align: -webkit-match-parent;
 }
